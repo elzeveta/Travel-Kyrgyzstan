@@ -6,23 +6,22 @@
 }
 
 .home,
-.about-kr,
 .tours,
 .sign-up {
   display: flex;
   height: 90vh;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
 .aboutkr {
-  background-image: url('images/img-1.jpg');
+  background-image: url('images/img-2.jpg');
   background-position: center;
-  background-size: cover;
+  background-size: fill;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  color: #0c0101;
+  font-size: 20px;
 }
 
 .tours {
@@ -30,7 +29,7 @@
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
-  color: #fff;
+  color: rgb(151, 84, 84);
   font-size: 100px;
 }
 
@@ -39,6 +38,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: rgb(126, 79, 79);
   font-size: 100px;
 }

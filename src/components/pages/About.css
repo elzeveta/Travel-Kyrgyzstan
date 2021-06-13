@@ -1,0 +1,16 @@
+.aboutkr {
+  display: flex;
+  justify-content: space-between;
+  background-color: #81abe9;
+}
+/* li {
+  padding: 30px 6px;
+  list-style-type: none;
+  text-align: center;
+} */
+.about__links {
+  border: 1px solid grey;
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: larger;
+}

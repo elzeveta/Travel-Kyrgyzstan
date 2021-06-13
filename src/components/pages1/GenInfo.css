@@ -1,0 +1,13 @@
+.gen {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 3rem;
+  padding: 10px;
+  line-height: 1.5;
+}
+.gen p {
+    margin: 15px;
+}
+
+
+
