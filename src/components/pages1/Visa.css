@@ -1,0 +1,14 @@
+.visa {
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 3rem;
+    padding: 30px;
+    line-height: 1.5;
+    background-color: whitesmoke;
+}
+p {
+    padding: 10px;
+}
+li {
+    margin-left: 40px;
+}

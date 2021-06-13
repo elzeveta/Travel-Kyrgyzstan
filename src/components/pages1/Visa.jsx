@@ -1,14 +1,70 @@
 import React from "react";
-import "./GenInfo.css"
+import "./Visa.css";
 
-function GenInfo() {
-    return (
-        <div className="gen">
-            <p>Kyrgyzstan – is a country located in Central Asia. Landlocked and mountainous, Kyrgyzstan is bordered by Kazakhstan to the north, Uzbekistan to the west, Tajikistan to the southwest and China to the east. Its capital and largest city is Bishkek.</p>
-            <p>The official language, Kyrgyz, is closely related to the other Turkic languages; however, the country is under a strong cultural influence from Russia and is rather Russified. The majority of the population (64%) are nondenominational Muslims.</p>
-            <p>Kyrgyzstan is a member of the Commonwealth of Independent States, the Eurasian Economic Community, the Collective Security Treaty Organization, the Shanghai Cooperation Organisation, the Organisation of Islamic Cooperation, the Turkic Council, the TÜRKSOY community and the United Nations.</p>
-        </div>
-    );
+function Visa() {
+  return (
+    <div className="visa">
+      <p>
+        Visa free regime in the Kyrgyz Republic applies to the citizens of the
+        following countries: Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan,
+        Moldova, Russia, Tajikistan, Vietnam, Cuba, Malaysia (up to 30 days),
+        Mongolia (up to 90 days), Turkey (up to 30 days), Ukraine (up to 90
+        days), Uzbekistan (up to 60 days) and Japan.
+      </p>
+      <p>
+        According to the Law of the Kyrgyz Republic "About introduction of a
+        visa-free regime for citizens of some states within 60 days", the
+        citizens of the following countries are exempt from the visa requirement
+        for up to 60 days:
+      </p>
+      <ul>
+          <li>Australia,</li>
+          <li>Austria,</li>
+          <li>Bahrain,</li>
+          <li>Belgium,</li>
+          <li>Bosnia and Herzegovina,</li>
+          <li>Brunei,</li>
+          <li>Canada,</li>
+          <li>Croatia,</li>
+          <li>Czech Republic,</li>
+          <li>Denmark,</li>
+          <li>Estonia,</li>
+          <li>Finland,</li>
+          <li>France,</li>
+          <li>Germany,</li>
+          <li>Great Britain,</li>
+          <li>Greece,</li>
+          <li>Hungary,</li>
+          <li>Iceland,</li>
+          <li>Ireland,</li>
+          <li>Italy,</li>
+          <li>Kuwait,</li>
+          <li>Latvia,</li>
+          <li>Liechtenstein,</li>
+          <li>Lithuania,</li>
+          <li>Luxembourg,</li>
+          <li>Malta,</li>
+          <li>Monaco,</li>
+          <li>the Netherlands,</li>
+          <li>New Zealand,</li>
+          <li>Norway,</li>
+          <li>Poland,</li>
+          <li>Portugal,</li>
+          <li>Qatar,</li>
+          <li>Saudi Arabia,</li>
+          <li>Singapore,</li>
+          <li>Slovakia,</li>
+          <li>Slovenia,</li>
+          <li>South Korea,</li>
+          <li>Spain,</li>
+          <li>Switzerland,</li>
+          <li>Sweden,</li>
+          <li>UAE,</li>
+          <li>USA,</li>
+          <li>Vatican.</li>
+      </ul>
+    </div>
+  );
 }
 
-export default GenInfo;
+export default Visa;
