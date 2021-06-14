@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed');
+
+
+h2 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin: 0;
+    font-style: oblique;
+}
+
+p {
+    font-weight: 300;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 0;
+    font-style: oblique;
+}
+
+
+.cities__container {
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 30px 0 40px rgba(0,0,0,0.1),
+    -30px 0 40px rgba(0,0,0,0.1);
+    padding: 30px;
+    background: #c3e5f3;
+}
+#cities {
+    background: #c3e5f3;
+    display: flex;
+    flex-direction: column;
+}
+
+#cities-text {
+    display: flex;
+    border: 1px solid lightgray;
+    width: 35vw;
+    padding: 1rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-style: oblique;
+}
+
+#cities-text h2 {
+    color: #888;
+    font-style: oblique;
+}
+#cities-image1 {
+    background-image: url('../../images/bishkek.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    margin-bottom: 1rem;
+}
+#cities-image2 {
+    background-image: url('../../images/osh.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    margin: 1rem;
+}
+#cities-image3 {
+    background-image: url('../../images/talas.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    margin: 1rem;
+}
+#cities-image4 {
+    background-image: url('../../images/batken.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    margin: 1rem;
+}
+#cities-image5 {
+    background-image: url('../../images/karakol.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    margin: 1rem;
+}
+#cities-image6 {
+    background-image: url('../../images/naryn.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    margin: 1rem;
+}
+#cities-image7 {
+    background-image: url('../../images/jalal-abad.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    margin: 1rem;
+}
+
+  
+  @media only screen and (max-width: 899px) {
+    #cities {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    #cities-text {
+        height: 100vh;
+    }
+
+    #cities-image1, #cities-image2, #cities-image3, #cities-image4, #cities-image5  {
+        height: 60vh;
+    }
+  }
+  

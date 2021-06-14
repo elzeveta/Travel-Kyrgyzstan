@@ -12,3 +12,14 @@
 span, li p {
   background-color: #c0bbf3;
 }
+
+@media only screen and (max-width: 899px) {
+  .gen h2, .gen p {
+      display: flex;
+      flex-direction: column;
+      font-size: 15px;
+  }
+  .gen h2 {
+    margin-bottom: 10px;
+  }
+}

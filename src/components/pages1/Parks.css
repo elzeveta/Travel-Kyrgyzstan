@@ -1,0 +1,57 @@
+.parks__container {
+  max-width: 1000px;
+  background-color: #ffffff;
+  height: 1650px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: lightsteelblue;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+.park1 {
+  float: left;
+  width: 64%;
+  height: 700px;
+  background-color: lightblue;
+  opacity: 1;
+  border: 1px solid lightskyblue;
+  box-shadow: 5px 8px 14px -3px rgba(0, 0, 0, 0.91);
+  margin: 1%;
+}
+.park1 img {
+  height: 40vh;
+}
+.park2 img {
+  height: 30vh;
+}
+.park1 img,
+.park2 img {
+  width: 100%;
+}
+.text {
+  padding: 0 20px;
+  margin: 20px;
+}
+.park2 {
+  float: left;
+  width: 31%;
+  height: 700px;
+  background-color: lightblue;
+  opacity: 1;
+  border: 1px solid lightskyblue;
+  box-shadow: 5px 8px 14px -3px rgba(0, 0, 0, 0.91);
+  margin: 1%;
+}
+.park1 a, .park2 a {
+  background-color: #01365a;
+  color: bisque;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+}
+.park__container a:hover {
+  background-color: bisque;
+  color: lightseagreen;
+}
