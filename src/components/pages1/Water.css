@@ -1,116 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed');
 
 
-h2 {
+.lakes__container h2 {
     font-size: 1.8rem;
     text-transform: uppercase;
     margin: 0;
+    font-style: oblique;
 }
 
-p {
+.lakes__container p {
     font-weight: 300;
     font-size: 1rem;
     text-transform: capitalize;
     margin: 0;
+    font-style: oblique;
 }
 
 
-.water__container {
+.lakes__container {
     max-width: 1200px;
     margin: auto;
     box-shadow: 30px 0 40px rgba(0,0,0,0.1),
     -30px 0 40px rgba(0,0,0,0.1);
     padding: 30px;
+    background: #c3e5f3;
 }
-#landing-1 {
-    background: #fff;
+#lakes {
+    background: #c3e5f3;
     display: flex;
-    flex-direction: row;
-}
-#landing-2 {
-    background: #fff;
-    display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
 }
 
-#landing-text {
+#lakes-text {
     display: flex;
-    flex: 0 1 40vw;
-    height: 50vh;
+    border: 1px solid lightgray;
+    width: 35vw;
+    padding: 1rem;
+    margin: auto;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding-right: 1rem;
     padding-left: 1rem;
+    font-style: oblique;
 }
 
-#landing-text h2 {
+#lakes-text h2 {
     color: #888;
+    font-style: oblique;
 }
-#landing-image1 {
-    background-image: url('../../images/img-ik.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 50vh;
-    flex: 0 1 60vw;
-    margin: 0;
-}
-#landing-image2 {
-    background-image: url('../../images/img-son-kul.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 50vh;
-    flex: 0 1 60vw;
-    margin: 0;
-}
-#landing-image3 {
-    background-image: url('../../images/img-sary-chelek.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 50vh;
-    flex: 0 1 60vw;
-    margin: 0;
-}
-#landing-image4 {
-    background-image: url('../../images/img-ala-kul.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 50vh;
-    flex: 0 1 60vw;
-    margin: 0;
-}
-#landing-image5 {
-    background-image: url('../../images/img-kel-suu.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 50vh;
-    flex: 0 1 60vw;
-    margin: 0;
+.lakes-image {
+    height: 70vh;
+    margin: 1rem;
 }
 
-/* @media only screen and (min-width: 1200px) {
-    .content__blog__container {
-      width: 84%;
-    }
-  } */
   
   @media only screen and (max-width: 899px) {
-    #landing-1, #landing-2 {
+    #lakes {
         display: flex;
         flex-direction: column;
         height: 100%;
     }
 
-    #landing-text {
+    #lakes-text {
         height: 100vh;
     }
 
-    #landing-image1, #landing-image2, #landing-image3, #landing-image4, #landing-image5  {
+    #lakes-image {
         height: 60vh;
     }
   }

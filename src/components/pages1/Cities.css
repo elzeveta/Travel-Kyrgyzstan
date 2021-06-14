@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed');
 
 
-h2 {
+.cities__container h2 {
     font-size: 1.8rem;
     text-transform: uppercase;
     margin: 0;
     font-style: oblique;
 }
 
-p {
+.cities__container p {
     font-weight: 300;
     font-size: 1rem;
     text-transform: capitalize;
@@ -66,7 +66,7 @@ p {
         height: 100vh;
     }
 
-    #cities-image1, #cities-image2, #cities-image3, #cities-image4, #cities-image5  {
+    #cities-image {
         height: 60vh;
     }
   }

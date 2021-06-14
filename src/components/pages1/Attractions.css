@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed');
+
+
+.attractions__container h2 {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.attractions__container p {
+    font-weight: 300;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+
+.attractions__container {
+    max-width: 1000px;
+    margin: auto;
+    box-shadow: 30px 0 40px rgba(0,0,0,0.1),
+    -30px 0 40px rgba(0,0,0,0.1);
+    padding: 30px;
+    background: #c3e5f3;
+}
+#attractions {
+    background: #c3e5f3;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+#attractions-text {
+    display: flex;
+    border: 1px solid lightgray;
+    width: 35vw;
+    padding: 1rem;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.attractions-image {
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+}
+
+  
+  @media only screen and (max-width: 899px) {
+    #attractions {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    #attractions-text {
+        height: 100vh;
+    }
+
+    #attractions-image {
+        height: 60vh;
+    }
+  }
+  

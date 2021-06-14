@@ -25,7 +25,7 @@ function AboutKR() {
               src='images/img-3.jpg'
               text='Mountains and valleys are the main components of the relief of Kyrgyzstan'
               label='Epic Mountains'
-              path='/carousel'
+              path='/slides'
             />
           </ul>
           <ul className='cards__items'>
