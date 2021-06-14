@@ -1,9 +1,98 @@
 import React from "react";
 import "./Visa.css";
 
-function Visa() {
-  return (
-    <div className="visa">
+class Visa extends React.Component {
+  constructor() {
+    super();
+    this.state = {
+      countries: [
+        "Australia",
+        "Austria",
+        "Bahrain",
+        "Belgium",
+        "Bosnia and Herzegovina",
+        "Brunei",
+        "Canada",
+        "Croatia",
+        "Czech Republic",
+        "Denmark",
+        "Estonia",
+        "Finland",
+        "France",
+        "Germany",
+        "Great Britain",
+        "Greece",
+        "Hungary",
+        "Iceland",
+        "Ireland",
+        "Italy",
+        "Kuwait",
+        "Latvia",
+        "Liechtenstein",
+        "Lithuania",
+        "Luxembourg",
+        "Malta",
+        "Monaco",
+        "the Netherlands",
+        "New Zealand",
+        "Norway",
+        "Poland",
+        "Portugal",
+        "Qatar",
+        "Saudi Arabia",
+        "Singapore",
+        "Slovakia",
+        "Slovenia",
+        "South Korea",
+        "Spain",
+        "Switzerland",
+        "Sweden",
+        "UAE",
+        "USA",
+        "Vatican",
+      ],
+      inputVal: "",
+      result: [],
+    };
+    this.state.result = this.state.countries;
+  }
+  getInput = (e) => {
+    const inputValue = e.target.value;
+    this.setState({ inputVal: inputValue }, () => {
+      this.autocomplete();
+    });
+  };
+  autocomplete = () => {
+    const { inputVal, countries } = this.state;
+    const match = countries.reduce((acc, state) => {
+      if (state.toLowerCase().includes(inputVal.toLowerCase())) {
+        acc.push(state);
+      }
+      return acc;
+    }, []);
+    this.setState({ result: match });
+  };
+
+  selectLocation = (item) => {
+    const newResult = this.state.result.filter((locName) => locName !== item);
+    this.setState({ inputVal: item, result: newResult });
+  };
+  render() {
+    const { inputVal, result } = this.state;
+    const content = result.map((item) => {
+      return (
+        <li
+          className="list-item"
+          onClick={() => {
+            this.selectLocation(item);
+          }}
+        >
+          {item}
+        </li>
+      );
+    });
+    return (
+      <div className="visa">
       <p>
         Visa free regime in the Kyrgyz Republic applies to the citizens of the
         following countries: Armenia, Azerbaijan, Belarus, Georgia, Kazakhstan,
@@ -17,54 +106,14 @@ function Visa() {
         citizens of the following countries are exempt from the visa requirement
         for up to 60 days:
       </p>
-      <ul>
-          <li>Australia,</li>
-          <li>Austria,</li>
-          <li>Bahrain,</li>
-          <li>Belgium,</li>
-          <li>Bosnia and Herzegovina,</li>
-          <li>Brunei,</li>
-          <li>Canada,</li>
-          <li>Croatia,</li>
-          <li>Czech Republic,</li>
-          <li>Denmark,</li>
-          <li>Estonia,</li>
-          <li>Finland,</li>
-          <li>France,</li>
-          <li>Germany,</li>
-          <li>Great Britain,</li>
-          <li>Greece,</li>
-          <li>Hungary,</li>
-          <li>Iceland,</li>
-          <li>Ireland,</li>
-          <li>Italy,</li>
-          <li>Kuwait,</li>
-          <li>Latvia,</li>
-          <li>Liechtenstein,</li>
-          <li>Lithuania,</li>
-          <li>Luxembourg,</li>
-          <li>Malta,</li>
-          <li>Monaco,</li>
-          <li>the Netherlands,</li>
-          <li>New Zealand,</li>
-          <li>Norway,</li>
-          <li>Poland,</li>
-          <li>Portugal,</li>
-          <li>Qatar,</li>
-          <li>Saudi Arabia,</li>
-          <li>Singapore,</li>
-          <li>Slovakia,</li>
-          <li>Slovenia,</li>
-          <li>South Korea,</li>
-          <li>Spain,</li>
-          <li>Switzerland,</li>
-          <li>Sweden,</li>
-          <li>UAE,</li>
-          <li>USA,</li>
-          <li>Vatican.</li>
-      </ul>
-    </div>
-  );
+        <label htmlFor="search">Search Location</label>
+        <input onChange={this.getInput} value={inputVal} />
+        <ul className="list">{content}</ul>
+      </div>
+    );
+  }
 }
 
 export default Visa;
+
+ 

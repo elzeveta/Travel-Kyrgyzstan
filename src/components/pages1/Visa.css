@@ -4,12 +4,21 @@
     margin-top: 3rem;
     padding: 30px;
     line-height: 1.5;
-    background-color: #16100ae6;
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: darkslategrey;
 }
-p {
+.visa p {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.visa label {
+    margin-left: 1.5rem;
     padding: 10px;
 }
-li {
-    margin-left: 40px;
+.visa input {
+    margin-bottom: 15px;
+}
+.visa li {
+    margin-left: 10rem;
+    cursor: pointer;
 }
