@@ -65,6 +65,10 @@
     width: 160px;
     box-sizing: border-box;
   }
+  .footer-link-items li {
+    list-style-type: none;
+    color: #fff;
+  }
   
   .footer-link-items h2 {
     margin-bottom: 16px;

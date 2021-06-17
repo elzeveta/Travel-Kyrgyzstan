@@ -59,7 +59,7 @@ function AboutKR() {
               src='images/img-8.jpg'
               text='Hospitality, kindness and openness are the main qualities of the nation.'
               label='Nomad People'
-              path='/customs'
+              path='/traditions'
             />
             <CardItem
               src='images/img-9.jpg'

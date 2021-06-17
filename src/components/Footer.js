@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Join the Adventure newsletter to receive our best locations in kyrgyzstan
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -29,10 +29,9 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
+            <Link to='/'>How it works</Link>
             <Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
             <Link to='/'>Terms of Service</Link>
           </div>
           <div className='footer-link-items'>
@@ -46,10 +45,17 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+            <Link to='/'>All videos shown</Link>
+            <Link to='/'>In this project</Link>
+            <Link to='/'>Belong to</Link>
+            <Link to='/'>The authors</Link>
+          </div>
+          <div className='footer-link-items'>
+            <h2>Images</h2>
+            <Link to='/'>All images shown</Link>
+            <Link to='/'>In this project</Link>
+            <Link to='/'>Belong to</Link>
+            <Link to='/'>The authors</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Social Media</h2>
@@ -64,11 +70,11 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
-              <i className='fab fa-typo3' />
+              KG
+              <img id="emblem" src="../images/emblem.png" alt="emblem"/>
             </Link>
           </div>
-          <small className='website-rights'>TRVL © 2020</small>
+          <small className='website-rights'>KG © 2021</small>
           <div className='social-icons'>
             <Link
               className='social-icon-link facebook'
