@@ -14,12 +14,11 @@ span, li p {
 }
 
 @media only screen and (max-width: 899px) {
-  .gen h2, .gen p {
-      display: flex;
-      flex-direction: column;
-      font-size: 15px;
+  .gen {
+      max-width: 500px;
   }
   .gen h2 {
+    font-size: 20px;
     margin-bottom: 10px;
   }
 }

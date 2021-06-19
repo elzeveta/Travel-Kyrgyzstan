@@ -125,6 +125,7 @@
   }
   
   .social-logo {
+    display: flex;
     color: #fff;
     justify-self: start;
     margin-left: 20px;
@@ -141,11 +142,21 @@
     margin-bottom: 16px;
   }
   
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 960px) {
     .footer-links {
-      padding-top: 2rem;
+      display: flex;
+      padding-top: 1rem;
     }
-  
+    .footer-link-items {
+      flex-direction: column;
+    }
+    .footer-logo {
+      display: flex;
+   
+    }
+    .social-logo {
+      display: none;
+    }
     .footer-input {
       width: 100%;
     }

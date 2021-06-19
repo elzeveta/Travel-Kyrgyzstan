@@ -74,3 +74,24 @@ padding: 10px;
     width: 400px;
     height: 350px;
 }
+  
+  @media screen and (max-width: 768px) {
+    .traditions {
+        width: 700px;
+        text-align: center;
+    }
+    .traditions__container h1 {
+        font-size: 35px;
+    }
+    .traditions__container p {
+        font-size: 14px;
+    }
+    .traditions-image {
+        width: 80%;
+        height: 300px;
+    }
+    #traditions-text {
+        width: 500px;
+    }
+    
+  }

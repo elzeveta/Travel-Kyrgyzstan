@@ -115,4 +115,8 @@
     .cards__item {
       margin-bottom: 2rem;
     }
+    .cards > h1 {
+      font-size: 30px;
+      margin-top: -10px;
+    }
   }

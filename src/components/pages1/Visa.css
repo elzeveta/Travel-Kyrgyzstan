@@ -22,3 +22,15 @@
     margin-left: 10rem;
     cursor: pointer;
 }
+
+@media screen and (max-width: 960px) {
+    .visa {
+        width: 600px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .visa {
+        width: 450px;
+    }
+  }

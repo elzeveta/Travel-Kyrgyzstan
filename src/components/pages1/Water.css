@@ -56,19 +56,47 @@
 }
 
   
-  @media only screen and (max-width: 899px) {
-    #lakes {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
+@media screen and (max-width: 960px) {
+    .lakes__container {
+        max-width: 800px;
     }
-
+    .lakes__container h1 {
+        font-size: 35px;
+    }
+    
+    .lakes__container p {
+        font-weight: 300;
+        font-size: 1rem;
+    }
     #lakes-text {
-        height: 100vh;
+        width: 550px;
     }
-
-    #lakes-image {
+    .lakes-image {
+        width: 100%;
         height: 60vh;
+        margin: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .lakes__container {
+        max-width: 550px;
+    }
+    .lakes__container h1 {
+        font-size: 35px;
+    }
+    
+    .lakes__container p {
+        font-weight: 300;
+        font-size: 1rem;
+    }
+    #lakes-text {
+        width: 460px;
+    }
+    .lakes-image {
+        width: 100%;
+        height: 40vh;
+        margin: 1rem;
     }
   }
   

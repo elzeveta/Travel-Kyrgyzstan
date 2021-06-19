@@ -49,19 +49,24 @@
 }
 
   
-  @media only screen and (max-width: 899px) {
-    #attractions {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
+  @media screen and (max-width: 768px) {
+    .attractions__container {
+        width: 700px;
+        text-align: center;
     }
-
+    .attractions__container h1 {
+        font-size: 35px;
+    }
+    .attractions__container p {
+        font-size: 14px;
+    }
+    .attractions-image {
+        width: 80%;
+        height: 300px;
+    }
     #attractions-text {
-        height: 100vh;
+        width: 500px;
     }
-
-    #attractions-image {
-        height: 60vh;
-    }
+    
   }
   

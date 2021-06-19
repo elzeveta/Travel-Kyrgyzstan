@@ -57,13 +57,6 @@ function Footer() {
             <Link to='/'>Belong to</Link>
             <Link to='/'>The authors</Link>
           </div>
-          <div className='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
-          </div>
         </div>
       </div>
       <section className='social-media'>
@@ -75,6 +68,7 @@ function Footer() {
             </Link>
           </div>
           <small className='website-rights'>KG © 2021</small>
+       
           <div className='social-icons'>
             <Link
               className='social-icon-link facebook'

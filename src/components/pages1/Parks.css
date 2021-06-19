@@ -1,7 +1,7 @@
 .parks__container {
   max-width: 1000px;
   background-color: #ffffff;
-  height: 1650px;
+  height: 1500px;
   margin: 20px auto;
   padding: 20px;
   background-color: lightsteelblue;
@@ -9,6 +9,7 @@
 h1 {
   text-align: center;
   font-size: 60px;
+  margin-top: 40px;
 }
 .park1 {
   float: left;
@@ -21,9 +22,11 @@ h1 {
   margin: 1%;
 }
 .park1 img {
+  width: 100%;
   height: 40vh;
 }
 .park2 img {
+  width: 100%;
   height: 30vh;
 }
 .park1 img,
@@ -33,6 +36,9 @@ h1 {
 .text {
   padding: 0 20px;
   margin: 20px;
+}
+.text p {
+  margin-bottom: 30px;
 }
 .park2 {
   float: left;
@@ -48,10 +54,61 @@ h1 {
   background-color: #01365a;
   color: bisque;
   text-decoration: none;
-  margin: 10px;
   padding: 10px;
 }
 .park__container a:hover {
   background-color: bisque;
   color: lightseagreen;
+}
+
+@media screen and (max-width: 960px) {
+  .parks__container {
+    width: 700px;
+    height: 240rem;
+  }
+  .park1 {
+    width: 650px;
+  }
+  .park2 {
+    width: 650px;
+  }
+  .park1 img, .park2 img {
+    width: 70%;
+    height: 50%;
+    margin-left: 90px;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .parks__container {
+      width: 450px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+  }
+  .parks__container h1 {
+    font-size: 30px;
+    align-items: center;
+  }
+  .park1 {
+    width: 370px;
+    height: 520px;
+    margin-left: 20px;
+  }
+  .park2 {
+    width: 370px;
+    height: 470px;
+    margin-left: 20px;
+  }
+  .park1, .park2 {
+    font-size: 13px;
+  }
+  .park1 img, .park2 img {
+    width: 60%;
+    height: 40%;
+    margin-left: 8px;
+    margin-top: 10px;
+  }
 }
