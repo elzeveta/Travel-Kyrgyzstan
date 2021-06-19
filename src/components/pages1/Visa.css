@@ -37,4 +37,7 @@
     .visa li {
      margin-left: 18px;
     }
+    label {
+        margin-left: -10px;
+    }
   }
