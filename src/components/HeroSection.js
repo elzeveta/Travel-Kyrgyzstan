@@ -27,7 +27,7 @@ class HeroSection extends React.Component {
             className="btns"
             buttonStyle="btn--outline"
             buttonSize="btn--large"
-            url="/aboutkr"
+            url="/sign-up"
           >
             GET STARTED
           </Button>

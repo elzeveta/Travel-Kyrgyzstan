@@ -7,7 +7,7 @@ const Attraction = ({ name, image, desc}) => {
         <img className="attractions-image" src={image} alt="lake"/>
          <div id="attractions-text">
            <div id="attractions-text-inner">
-             <h2>{name}</h2>
+             <h3>{name}</h3>
              <p>{desc}</p>
            </div>
          </div>

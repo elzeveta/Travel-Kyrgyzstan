@@ -54,7 +54,7 @@
         width: 700px;
         text-align: center;
     }
-    .attractions__container h1 {
+    .attractions__container h2 {
         font-size: 35px;
     }
     .attractions__container p {
@@ -76,7 +76,7 @@ and (max-device-width : 568px) {
         margin: auto;
        
     }
-    .attractions__container h1 {
+    .attractions__container h2 {
         font-size: 35px;
     }
     #attractions {

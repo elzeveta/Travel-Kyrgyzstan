@@ -3,5 +3,10 @@ import React from 'react';
 import '../../App.css';
 
 export default function SignUp() {
-  return <h1 className='sign_up'>LIKE & SUBSCRIBE</h1>;
+  return (
+<div className='sign-up'>
+  <h2>Like and Sign Up</h2>
+      <video src='/videos/video-1.mp4' autoPlay loop muted />
+      </div>
+  )
 }

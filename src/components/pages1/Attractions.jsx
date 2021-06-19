@@ -48,26 +48,9 @@ class Attractions extends Component {
 
     return (
       <div className="attractions__container">
-        <h1>Water points</h1>
+        <h2>Destinations</h2>
         <p>
-          Water resources of Kyrgyzstan are invaluable. There are more than
-          40,000 large and small rivers. They rapidly flow among mountains and
-          falling down from steep rocks, they form hundreds of beautiful
-          waterfalls. The most powerful and longest river Naryn is 535 km long.
-          attraction in Kyrgyzstan are unique and remarkably beautiful. There are
-          more than 2,000 of attractions, and most of them are located in the
-          highlands. Kyrgyzstan is also widely known for its hydropower
-          potential. There are 34 water reservoirs and 17 hydropower stations.
-        </p>
-        <p>
-          Kyrgyzstan is a mountainous country, thus there are a lot of water
-          resources thanks to glaciers. There are more than 2000 rivers and
-          thousands of attractions various sizes. The country depends on annual melt
-          of glaciers. In Kyrgyzstan, rivers and attractions often have emerald color
-          as well as bright crystal and blinding white. If you would like to
-          feel the power of the element you have to visit waterfalls across the
-          country. The biggest is Shaar which is more than 300 meters tall and
-          can be seen miles away.{" "}
+        The long history of Kyrgyzstan conceals many secrets. Making a visit to numerous monuments and architectural buildings of antiquity and the Middle Ages, perfectly preserved in various parts of the country, will surely help to solve all mysteries. Museums, fortresses, mausoleums and mosques are just a few of the attractions that are worth a visit.
         </p>
         {content}
       </div>

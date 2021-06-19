@@ -29,7 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            KG
+            KR
             <img id="emblem" src="../images/emblem.png" alt="emblem"/>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -62,7 +62,7 @@ function Navbar() {
 
             <li>
               <Link
-                to='/sign_up'
+                to='/sign-up'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
