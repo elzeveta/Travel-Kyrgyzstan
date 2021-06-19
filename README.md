@@ -3,8 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Demo 
-
-[traveltokr.gif](https://postimg.cc/zbWzPgWS)
+[![travelto.gif](https://i.postimg.cc/9QjXbgRV/travelto.gif)](https://postimg.cc/3dnHJBFb)
 
 ## Available Scripts
 
