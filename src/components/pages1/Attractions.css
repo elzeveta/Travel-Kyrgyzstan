@@ -66,7 +66,37 @@
     }
     #attractions-text {
         width: 500px;
-    }
-    
+    }  
   }
+  @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+    .attractions__container {
+        max-width: 310px;
+        margin: auto;
+       
+    }
+    .attractions__container h1 {
+        font-size: 35px;
+    }
+    #attractions {
+        font-size: 25px;
+        max-width: 300px;
+        margin: auto;
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+    .attractions__container p {
+        font-size: 14px;
+    }
+    .attractions-image {
+        width: 270px;
+        height: 270px;
+        margin-left: -10px;
+    }
+    #attractions-text {
+        max-width: 270px;
+        margin-left: -10px;
+    }  
+}
   

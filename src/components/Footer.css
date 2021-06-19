@@ -146,6 +146,7 @@
     .footer-links {
       display: flex;
       padding-top: 1rem;
+      margin-left: 3rem;
     }
     .footer-link-items {
       flex-direction: column;

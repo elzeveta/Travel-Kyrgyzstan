@@ -29,8 +29,12 @@
     }
   }
   
-  @media screen and (max-width: 768px) {
+  @media screen and (min-device-width : 320px) 
+  and (max-device-width : 568px)  {
     .visa {
-        width: 450px;
+        width: 300px;
+    }
+    .visa li {
+     margin-left: 18px;
     }
   }
