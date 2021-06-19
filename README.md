@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Demo 
 
-[![traveltokr.gif](https://i.postimg.cc/nzSXrKh5/traveltokr.gif)](https://postimg.cc/zbWzPgWS)
+[traveltokr.gif](https://postimg.cc/zbWzPgWS)
 
 ## Available Scripts
 
